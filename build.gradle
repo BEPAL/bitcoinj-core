@@ -1,0 +1,26 @@
+group 'com.bitcoinj'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile 'com.google.protobuf:protobuf-java:3.3.1'
+    compile 'com.google.guava:guava:22.0-android'
+    compile 'org.slf4j:slf4j-api:1.7.20'
+    compile 'org.slf4j:slf4j-jdk14:1.7.20'
+    compile 'net.jcip:jcip-annotations:1.0'
+    compile 'com.madgag.spongycastle:core:1.56.0.0'
+    compile 'com.squareup.okhttp3:okhttp:3.8.1'
+    compile 'com.lambdaworks:scrypt:1.4.0'
+    compile 'org.fusesource.leveldbjni:leveldbjni-all:1.8'
+    compile 'com.google.protobuf:protobuf-java-util:3.3.1'
+
+}
