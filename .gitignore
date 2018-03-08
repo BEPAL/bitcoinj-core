@@ -1,1 +1,5 @@
 /out
+/bitcoinj-core.iml
+/.idea
+/.gradle
+/gradle

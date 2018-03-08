@@ -22,5 +22,7 @@ dependencies {
     compile 'com.lambdaworks:scrypt:1.4.0'
     compile 'org.fusesource.leveldbjni:leveldbjni-all:1.8'
     compile 'com.google.protobuf:protobuf-java-util:3.3.1'
+    compile 'org.easymock:easymock:3.2'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.5.2'
 
 }

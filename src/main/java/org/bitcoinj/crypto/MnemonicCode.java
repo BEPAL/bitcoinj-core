@@ -17,8 +17,6 @@
 
 package org.bitcoinj.crypto;
 
-import com.mypxq.base.Hex;
-import com.mypxq.base.MessageBox;
 import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.core.Utils;
 import org.slf4j.Logger;
@@ -34,10 +32,8 @@ import java.io.InputStreamReader;
 import java.security.MessageDigest;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
-import static org.bitcoinj.core.Utils.HEX;
 
 /**
  * A MnemonicCode object may be used to convert between binary seed values and

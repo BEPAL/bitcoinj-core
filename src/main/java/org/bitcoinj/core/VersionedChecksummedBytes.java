@@ -16,15 +16,12 @@
 
 package org.bitcoinj.core;
 
-import static com.google.common.base.Preconditions.checkArgument;
-
 import java.io.Serializable;
 import java.util.Arrays;
 
 import com.google.common.base.Objects;
 import com.google.common.primitives.Ints;
 import com.google.common.primitives.UnsignedBytes;
-import com.mypxq.base.MessageBox;
 
 /**
  * <p>In Bitcoin the following format is often used to represent some type of key:</p>
